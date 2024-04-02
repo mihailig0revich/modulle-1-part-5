@@ -115,17 +115,29 @@ document.querySelector('.brands-list-more-btn__more-btn')
     }
 });
 
-new Swiper('.swiper', {
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1.2,
-        },
-        500: {
-            slidesPerView: 2.2,
-        }
+let swiper;
+
+function initializeSwiper() {
+    if (window.innerWidth <= 768 && !swiper) {
+        swiper = new Swiper('.swiper', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1.2,
+                },
+                500: {
+                    slidesPerView: 2.2,
+                }
+            }
+        });
+        console.log('123');
     }
+    
+}
+window.addEventListener('resize', () => {
+	initializeSwiper();
 });
+initializeSwiper();
