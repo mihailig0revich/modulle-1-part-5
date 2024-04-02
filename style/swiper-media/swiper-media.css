@@ -1,0 +1,20 @@
+.swiper-media{
+    position: relative;
+}
+.swiper-media::after{
+    content: '';
+    width: 24px;
+    height: 70px;
+    background: -webkit-linear-gradient(left, rgba(248,248,248,0), rgb(248,248,248,1));
+    position: absolute;
+    z-index: 100;
+    right: -1px;
+    top: 0;
+    overflow: hidden;
+    
+}
+@media screen and (min-width: 768px) {
+    .swiper-media{
+        display:none;
+    }
+}

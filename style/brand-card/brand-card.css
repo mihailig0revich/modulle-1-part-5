@@ -1,0 +1,16 @@
+@import url(./button/button.css);
+@import url(./media/media.css);
+@import url(./hidden/hidden.css);
+@import url(./visible/visible.css);
+
+.brand-card{
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    height: 70px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}

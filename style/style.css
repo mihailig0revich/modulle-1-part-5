@@ -1,0 +1,35 @@
+@import url(./brands-section/brands-section.css);
+@import url(./more-btn/more-btn.css);
+@import url(./brands-list/brands-list.css);
+@import url(./brands-list-more-btn/brands-list-more-btn.css);
+@import url(./swiper/swiper.css);
+@import url(./swiper-media/swiper-media.css);
+@import url(./swiper-wrapper/swiper-wrapper.css);
+@import url(./swiper-slide/swiper-slide.css);
+@import url(./swiper-pagination-bullet/swiper-pagination-bullet.css);
+@import url(./brand-card/brand-card.css);
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#F8F8F8;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+.brand-card__media{
+    display: none;
+}
+@media screen and (min-width: 1120px) {
+    .brand-card__media{
+        display: flex;
+    }
+}
+.brand-card__hidden{
+    display: none;
+}
+.brand-card__visible{
+    display: flex;
+}
+

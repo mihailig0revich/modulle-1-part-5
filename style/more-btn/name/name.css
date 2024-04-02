@@ -1,0 +1,14 @@
+.more-btn__name{
+    display: inline-block;
+    margin: 0;
+    line-height: 24px;
+    font-size: 16px;
+    color: #1B1C21;
+    font-weight: 500;
+    font-family: TT Lakes;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+.more-btn:hover .more-btn__name {
+    color: #606269;
+}

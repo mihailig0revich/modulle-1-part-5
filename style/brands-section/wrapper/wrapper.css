@@ -1,0 +1,10 @@
+.brands-section__wrapper{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+@media screen and (min-width: 1120px) {
+    .brands-section__wrapper{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}

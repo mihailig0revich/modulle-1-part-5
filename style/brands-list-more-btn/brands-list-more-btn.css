@@ -1,0 +1,14 @@
+.brands-list-more-btn{
+    padding: 24px;
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .brands-list-more-btn{
+        display: block;
+    }
+}
+@media screen and (min-width: 1120px) {
+    .brands-list-more-btn{
+        padding: 32px;
+    }
+}

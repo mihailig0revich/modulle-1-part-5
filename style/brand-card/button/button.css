@@ -1,0 +1,17 @@
+.brand-card__button{
+    border-radius: 50%;
+    border: 2px solid #FF3E79;
+    background-color: #fff;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-card__button:hover {
+    border: 2px solid #db3567;
+}
+.brand-card__button:hover img{
+    filter: invert(26%) sepia(74%) saturate(2326%) hue-rotate(321deg) brightness(92%) contrast(86%);
+}

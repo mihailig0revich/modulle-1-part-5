@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <title>Brands</title>
+</head>
+<body>
+    <section class="brands-section">
+        <header class="brands-section__header">
+            <h2 class="brands-section__header-text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
+        </header>
+        <section class="swiper-media">
+            <div class="brands-section__swiper swiper">
+                <div class="swiper__swiper-wrapper swiper-wrapper">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="brands-section__list brands-list brands-section__wrapper">
+            
+        </section>
+        <div class="brands-list-more-btn">
+            <button class="brands-list-more-btn__more-btn more-btn">
+                <img class="more-btn__icon" src="img/down-arrows.svg" alt="стрелка вниз">
+                <p class="more-btn__name">Показать все</p>
+            </button>
+        </div>
+    </section>
+    </section>
+    <template id="swiper">
+        <article class="swiper__swiper-slide swiper-slide">
+            <div class="swiper-slide__card brand-card">
+                <img class="brand-card__img"  src="./img/Bitmap1.png" alt="картинка">
+                <button class="brand-card__button">
+                    <img src="./img/dropdown.svg" alt="Иконка стрелки на кнопке">
+                </button>
+            </div>
+        </article>
+    </template>
+    <template id="brand-card">
+        <article class=" brands-list__brand-card brand-card">
+            <img class="brand-card__img"  src="./img/Bitmap1.png" alt="картинка">
+            <button class="brand-card__button">
+                <img src="./img/dropdown.svg" alt="Иконка стрелки на кнопке">
+            </button>
+        </article>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./code/code.js"></script>
+</body>
+</html>
